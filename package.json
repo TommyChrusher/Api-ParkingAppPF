@@ -1,0 +1,19 @@
+{
+  "name": "parkingmanagerbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "node --watch app.js",
+    "controller": "node --watch ./controllers/espacio_parqueo_controller.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  }
+}
